@@ -23,7 +23,7 @@ Here’s a summary of the different ways you can contribute:
 
 ## Open a new Issue
 
-If you find a bug or problem, first check whether a similar issue already exists. If you don’t find any open issue that addresses the bug/problem you’re facing, feel free to [open a new issue](https://github.com/satnaing/astro-paper/issues/new/choose).
+If you find a bug or problem, first check whether a similar issue already exists. If you don’t find any open issue that addresses the bug/problem you’re facing, feel free to [open a new issue](https://github.com/guspatagonico/gustavosalvini-astro-blog/issues/new/choose).
 
 ## Feature Requests
 
