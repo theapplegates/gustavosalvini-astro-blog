@@ -1,22 +1,25 @@
-# How to contribute to AstroPaper
+# How to contribute to gustavosalvini-astro-blog
 
-Thank you for your interest in contributing to **AstroPaper**! We appreciate every contribution, whether you're fixing a typo, improving documentation, or adding a new feature.
+Thank you for your interest in contributing to **gustavosalvini-astro-blog**! We appreciate every contribution, whether you're fixing a typo, improving documentation, or adding a new feature.
 
 ## Types of Contributions
 
-There are several ways to contribute to **AstroPaper**, and every contribution counts\_ whether it's a PR for a major feature or a small fix.
+There are several ways to contribute to **gustavosalvini-astro-blog**, and every contribution counts\_ whether it's a PR for a major feature or a small fix.
 
 You can also contribute by leaving review comments on PRs, adding ideas to existing GitHub Issues and Discussions, or helping others by answering questions in GitHub Discussions.
 
 Here’s a summary of the different ways you can contribute:
 
-- [Opening a new issue](#open-a-new-issue)
-- [Submitting PRs](#feature-requests)
-  - [Solving an existing issue](#solving-an-issue)
-  - [Making changes to a blog post](#making-changes-to-a-blog-post)
-- [Helping others by answering issues/discussions](#helping-with-github-issuesdiscussions)
-- [Reviewing existing PRs](#reviewing-existing-prs)
-- [Starting a discussion](#starting-a-discussion)
+- [How to contribute to gustavosalvini-astro-blog](#how-to-contribute-to-gustavosalvini-astro-blog)
+  - [Types of Contributions](#types-of-contributions)
+  - [Open a new Issue](#open-a-new-issue)
+  - [Feature Requests](#feature-requests)
+  - [Making PRs (Pull Requests)](#making-prs-pull-requests)
+    - [Solving an Issue](#solving-an-issue)
+    - [Making Changes to a Blog Post](#making-changes-to-a-blog-post)
+  - [Helping with GitHub Issues/Discussions](#helping-with-github-issuesdiscussions)
+  - [Reviewing Existing PRs](#reviewing-existing-prs)
+  - [Starting a Discussion](#starting-a-discussion)
 
 ## Open a new Issue
 
@@ -26,15 +29,15 @@ If you find a bug or problem, first check whether a similar issue already exists
 
 If you have an idea for a new feature or enhancement that could improve AstroPaper, we’d love to hear it! Before submitting a new feature request, please:
 
-1. **Check existing discussions/issues**: Review the [Discussions](https://github.com/satnaing/astro-paper/discussions) or [Issues](https://github.com/satnaing/astro-paper/issues) to see if the feature has already been requested or discussed. You can contribute by adding your thoughts or upvoting existing requests.
-2. **Open a new issue**: If you don’t find an existing discussion, you can open a new issue using the [Feature Request Template](https://github.com/satnaing/astro-paper/issues/new?assignees=&labels=enhancement&projects=&template=%E2%9C%A8-feature-request.md&title=%5BFeature+Request%5D%3A+). Be as detailed as possible, describing the problem this feature would solve and how it would benefit AstroPaper users.
-3. **Discuss first**: If you’re unsure whether your idea is feasible or fits the project’s goals, feel free to [start a GitHub Discussion](https://github.com/satnaing/astro-paper/discussions/new/choose) to gather feedback from the community.
+1. **Check existing discussions/issues**: Review the [Discussions](https://github.com/guspatagonico/gustavosalvini-astro-blog/discussions) or [Issues](https://github.com/guspatagonico/gustavosalvini-astro-blog/issues) to see if the feature has already been requested or discussed. You can contribute by adding your thoughts or upvoting existing requests.
+2. **Open a new issue**: If you don’t find an existing discussion, you can open a new issue using the [Feature Request Template](https://github.com/guspatagonico/gustavosalvini-astro-blog/issues/new?assignees=&labels=enhancement&projects=&template=%E2%9C%A8-feature-request.md&title=%5BFeature+Request%5D%3A+). Be as detailed as possible, describing the problem this feature would solve and how it would benefit AstroPaper users.
+3. **Discuss first**: If you’re unsure whether your idea is feasible or fits the project’s goals, feel free to [start a GitHub Discussion](https://github.com/guspatagonico/gustavosalvini-astro-blog/discussions/new/choose) to gather feedback from the community.
 
 ## Making PRs (Pull Requests)
 
 ### Solving an Issue
 
-Browse through the existing issues to find one that interests you. You can use labels to filter the issues. See the [Label](https://github.com/satnaing/astro-paper/labels) section for more information.
+Browse through the existing issues to find one that interests you. You can use labels to filter the issues. See the [Label](https://github.com/guspatagonico/gustavosalvini-astro-blog/labels) section for more information.
 
 ### Making Changes to a Blog Post
 
@@ -52,4 +55,4 @@ Since AstroPaper doesn’t currently have automated testing, it’s especially u
 
 ## Starting a Discussion
 
-If you’re unsure whether your issue warrants a fix or if you just want to share ideas and get feedback, feel free to [start a GitHub discussion](https://github.com/satnaing/astro-paper/discussions/new/choose). It’s a great way to engage with the community.
+If you’re unsure whether your issue warrants a fix or if you just want to share ideas and get feedback, feel free to [start a GitHub discussion](https://github.com/guspatagonico/gustavosalvini-astro-blog/discussions/new/choose). It’s a great way to engage with the community.
