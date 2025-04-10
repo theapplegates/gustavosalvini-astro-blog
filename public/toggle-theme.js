@@ -28,6 +28,15 @@ function reflectPreference() {
 
   document.querySelector("#theme-btn")?.setAttribute("aria-label", themeValue);
 
+  document.querySelectorAll(".mermaid-dark").forEach((el) => {
+    if (themeValue === "dark") {
+      el.setAttribute("media", "all");
+    } else {
+      el.setAttribute("media", "none");
+    }
+  });
+
+
   // Get a reference to the body element
   const body = document.body;
 
