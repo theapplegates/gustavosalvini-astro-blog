@@ -4,6 +4,7 @@ title: AstroPaper 5.0
 slug: astro-paper-v5
 featured: true
 ogImage: ../../../assets/images/AstroPaper-v5.png
+draft: true
 tags:
   - release
 description: "AstroPaper v5: keep the clean look, updates under the hood."
@@ -82,7 +83,7 @@ The project structure has been reorganized. The `src/config.ts` file now only co
 ## Other notable changes
 
 - The blog posts directory has been updated from `src/content/blog/` to `src/data/blog/`.
-- Conllection definitions file (`src/content/config.ts`) is now replaced with `src/content.config.ts`.
+- Collection definitions file (`src/content/config.ts`) is now replaced with `src/content.config.ts`.
 - Various dependencies have been upgraded for improved performance and security.
 - Removed `IBM Plex Mono` font and switched to the default system mono font.
 - The `Go back` button logic has been updated. Now, instead of triggering the browser's history API, AstroPaper v5 uses the browser session to temporarily store the back URL. If no back URL exists in the session, it will redirect to the homepage.

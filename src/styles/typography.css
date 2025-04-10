@@ -40,6 +40,10 @@
     @apply break-all sm:break-normal;
   }
 
+  .prose .katex-display {
+    @apply text-foreground;
+  }
+
   pre > code {
     white-space: pre;
   }
