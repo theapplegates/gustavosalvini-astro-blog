@@ -280,6 +280,20 @@ const nextPost =
   }
   backToTop();
 
+  /** Update Mermaid theme on page load */
+  function updateMermaidTheme() {
+    const dataTheme = document.documentElement.getAttribute("data-theme");
+    document.querySelectorAll(".mermaid-dark").forEach(el => {
+      if (dataTheme === "dark") {
+        el.setAttribute("media", "all");
+      } else {
+        el.setAttribute("media", "none");
+      }
+    });
+  }
+
+  updateMermaidTheme();
+
   /* Go to page start after page swap */
   document.addEventListener("astro:after-swap", () =>
     window.scrollTo({ left: 0, top: 0, behavior: "instant" })
