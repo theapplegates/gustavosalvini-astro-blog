@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @import "./typography.css";
-/* @import "@/assets/fontawesome/css/svg-with-js.css"; */
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
