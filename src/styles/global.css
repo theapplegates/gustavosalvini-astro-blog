@@ -6,10 +6,10 @@
 :root,
 html[data-theme="light"] {
   /* --background: #fdfdfd; */
-  --background: #f4f4f4;
+  --background: #e4e2e2;
   --foreground: #282728;
   /* --accent: #006cac; */
-  --accent: #0c84c9;
+  --accent: #c93b0c;
   /* --muted: #e6e6e6; */
   --muted: #dfdfdf;
   /* --border: #ece9e9; */
@@ -18,10 +18,10 @@ html[data-theme="light"] {
 
 html[data-theme="dark"] {
   /* --background: #212737; */
-  --background: #1f2637;
-  --foreground: #eaedf3;
+  --background: #232235;
+  --foreground: #afb9d0;
   /* --accent: #ff6b01; */
-  --accent: #0e77e6;
+  --accent: #3b86d6;
   /* --muted: #343f60bf; */
   --muted: #2673c55b;
   /* --border: #ab4b08; */
@@ -29,6 +29,8 @@ html[data-theme="dark"] {
 }
 
 @theme inline {
+  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
@@ -46,7 +48,10 @@ html[data-theme="dark"] {
     @apply overflow-y-scroll scroll-smooth;
   }
   body {
-    @apply flex min-h-svh flex-col bg-background font-mono text-foreground selection:bg-accent/75 selection:text-background;
+    @apply flex min-h-svh flex-col bg-background font-sans text-foreground selection:bg-accent/75 selection:text-background;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-mono;
   }
   a,
   button {

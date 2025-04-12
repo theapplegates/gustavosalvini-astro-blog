@@ -42,14 +42,14 @@ const time = datetime.format("hh:mm A"); // e.g., '08:30 PM'
   />
   {
     modDatetime && modDatetime > pubDatetime ? (
-      <span class:list={["text-sm italic", { "sm:text-base": size === "lg" }]}>
+      <span class:list={["text-sm", { "sm:text-base": size === "lg" }]}>
         Updated:
       </span>
     ) : (
       <span class="sr-only">Published:</span>
     )
   }
-  <span class:list={["text-sm italic", { "sm:text-base": size === "lg" }]}>
+  <span class:list={["text-sm", { "sm:text-base": size === "lg" }]}>
     <time datetime={datetime.toISOString()}>{date}</time>
     <span aria-hidden="true"> | </span>
     <span class="sr-only">&nbsp;at&nbsp;</span>

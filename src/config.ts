@@ -4,7 +4,7 @@ export const SITE = {
   profile: "https://gustavosalvini.com.ar/",
   desc: "A personal playground for full-stack development and digital exploration by Gustavo Adrián Salvini",
   title: "Gustavo Salvini",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "gustavosalvini-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
