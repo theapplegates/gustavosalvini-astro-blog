@@ -3,7 +3,7 @@ export const SITE = {
   author: "Gustavo Adrián Salvini",
   profile: "https://gustavosalvini.com.ar/",
   desc: "A personal playground for full-stack development and digital exploration by Gustavo Adrián Salvini",
-  title: "Gustavo Salvini",
+  title: "Gustavo Adrián Salvini",
   ogImage: "gustavosalvini-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
