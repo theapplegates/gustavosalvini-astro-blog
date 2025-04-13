@@ -1,8 +1,8 @@
 ---
 author: Somnath Singh
 pubDatetime: 2025-04-11T17:52:52.958Z
-modDatetime: 2025-04-11T17:52:52.958Z
-title: Olvida la AGI. Olvida los agentes. No tienes idea de lo que se viene
+modDatetime: 2025-04-13T02:12:49.981Z
+title: Olvida la AGI y agentes. No tienes idea de lo que se viene.
 featured: true
 hideEditPost: true
 draft: true

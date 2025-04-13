@@ -1,0 +1,89 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "astro",
+  "frontMatter.preview.host": "http://localhost:4321",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "pages",
+      "path": "[[workspace]]/src/pages"
+    },
+    {
+      "title": "blog",
+      "path": "[[workspace]]/src/data/blog"
+    },
+    {
+      "title": "examples",
+      "path": "[[workspace]]/src/data/blog/examples"
+    },
+    {
+      "title": "_releases",
+      "path": "[[workspace]]/src/data/blog/_releases"
+    },
+    {
+      "title": "engineering",
+      "path": "[[workspace]]/src/data/blog/engineering"
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": "'blog'",
+      "filePrefix": null,
+      "clearEmpty": true,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "pubDatetime",
+          "name": "pubDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "featured",
+          "name": "featured",
+          "type": "boolean"
+        },
+        {
+          "title": "draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "timezone",
+          "name": "timezone",
+          "type": "string"
+        },
+        {
+          "title": "modDatetime",
+          "name": "modDatetime",
+          "type": "datetime"
+        },
+        {
+          "title": "hideEditPost",
+          "name": "hideEditPost",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}
