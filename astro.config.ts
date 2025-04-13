@@ -10,22 +10,37 @@ import rehypeMermaid from "rehype-mermaid";
 import rehypeModifyMermaidGraphs from "./src/utils/rehype/rehype-modifyMermaidGraphs";
 
 import { SITE } from "./src/config";
+import { targetBlank } from "./src/utils/rehype/rehype-targetBlank";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
-  integrations: [mdx(), sitemap({
-    filter: page => SITE.showArchives || !page.endsWith("/archives"),
-  })],
+  integrations: [
+    mdx(),
+    sitemap({
+      filter: page => SITE.showArchives || !page.endsWith("/archives"),
+    }),
+  ],
 
   markdown: {
-    remarkPlugins: [remarkMath, remarkToc,
-      [remarkCollapse, { test: "Table of contents" }]],
-    rehypePlugins: [rehypeKatex, [rehypeMermaid, { strategy: "img-svg", dark: true, colorScheme: "forest" }], rehypeModifyMermaidGraphs],
+    remarkPlugins: [
+      remarkMath,
+      remarkToc,
+      [remarkCollapse, { test: "Table of contents" }],
+    ],
+    rehypePlugins: [
+      [targetBlank, { domain: "gustavosalvini.com.ar" }],
+      rehypeKatex,
+      [
+        rehypeMermaid,
+        { strategy: "img-svg", dark: true, colorScheme: "forest" },
+      ],
+      rehypeModifyMermaidGraphs,
+    ],
 
     syntaxHighlight: {
-      type: 'shiki',
-      excludeLangs: ['mermaid', 'math'],
+      type: "shiki",
+      excludeLangs: ["mermaid", "math"],
     },
 
     shikiConfig: {

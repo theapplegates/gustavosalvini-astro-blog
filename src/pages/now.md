@@ -3,34 +3,55 @@ layout: ../layouts/AboutLayout.astro
 title: "Now"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://gustavosalvini.com.ar).
+Last updated: April 10, 2025
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+---
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Hi! I'm Gustavo Salvini.  
+Here's what I'm focused on right now:
 
-<div>
-  <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+## 🚀 Building
 
-## Tech Stack
+- Developing new web applications with **React**, **Next.js**, and **Vite**, focusing on **static site generation (SSG)** and **serverless-first** architectures.
+- Creating **Matriz20en1**, an AI-powered tool for business analysis models.
+- Advancing **TinkerCalc**, a personal project for a multi-field technical calculator for engineers, developers, and scientists.
+- Growing my consulting practice through **EcimTech**, focusing on custom web solutions and WordPress-based projects with high SEO and security standards.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+## 🧠 Researching
 
-## Features
+- **Large Language Models (LLMs)**:  
+  - Integrating APIs from **OpenAI**, **Anthropic**, and **Gemini**.
+  - Exploring **open-source LLMs** and **local deployments** for privacy-focused projects.
+  - Investigating **RAG systems** (Retrieval-Augmented Generation) and **semantic search** technologies for smarter information retrieval inside apps.
+- **Advanced State Management** for React apps:  
+  - Deep diving into **Zustand**, **MobX State Tree**, and **Valtio** patterns.
+- Experimenting with **AI-augmented development workflows**:  
+  Using AI to boost coding, architecture design, and product ideation processes.
 
-Here are certain features of this site.
+## ✍️ Writing
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+- Launching this new blog as a way to **share my journey**, **document learning**, and **collaborate** with others.
+- Working on articles about:
+  - Web development best practices.
+  - Practical AI integrations for developers.
+  - Lessons learned building full-stack digital products.
+
+## 🎯 Personal Goals
+
+- Stay consistent with **knowledge sharing**.
+- Explore open-source contributions more actively.
+- Focus on **quality over quantity** in everything I build and ship.
+
+---
+
+> _This page is a living document._  
+> I update it regularly to reflect where my focus is at any given time.
+
+If you want to chat, collaborate, or just say hi, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/gustavosalvini/) or check out [my work at EcimTech](https://ecimtech.com).
+
+---
+
+
 
 If you like this theme, you can star/contribute to the [repo](https://github.com/guspatagonico/gustavosalvini-astro-blog).  
 Or you can even give any feedback via my [email](mailto:guspatagonico@gmail.com).
