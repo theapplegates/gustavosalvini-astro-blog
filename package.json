@@ -16,6 +16,7 @@
   "dependencies": {
     "@astrojs/markdown-remark": "^6.3.1",
     "@astrojs/mdx": "^4.2.3",
+    "@astrojs/partytown": "^2.1.4",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.0",
     "@fontsource-variable/inter": "^5.2.5",
@@ -61,5 +62,5 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "packageManager": "pnpm@10.8.0+sha256.29bf2c5ceaea7991ee82eec15fe7162e0fad816d0c4a6b35a16c01d39274bf69"
+  "packageManager": "pnpm@10.8.1+sha256.d8b2ebbc65cf02c349eca6b45c9640b910f16b6adebdb7b926e9db440e47cac7"
 }

@@ -127,6 +127,23 @@ const structuredData = {
       )
     }
 
+    <!-- Google Analytics -->
+    <!-- Google tag (gtag.js) -->
+    <script
+      is:inline
+      type="text/partytown"
+      src="https://www.googletagmanager.com/gtag/js?id=G-09W87G423D"
+    ></script>
+    <script is:inline type="text/partytown">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-09W87G423D");
+    </script>
+
     <ClientRouter />
 
     <script is:inline src="/toggle-theme.js"></script>
