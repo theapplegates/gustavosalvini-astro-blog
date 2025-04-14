@@ -10,7 +10,7 @@ import Hr from "@/components/Hr.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
-import { Content as AboutMe } from "../components/AboutMe.md";
+import { Content as AboutMeIntro } from "../components/AboutMeIntro.md";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 
@@ -25,7 +25,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index">
     <section id="hero" class="pt-8 pb-6">
-      <h2 class="my-4 mr-2 inline-block text-2xl font-bold sm:my-8 sm:text-3xl">
+      <h2
+        class="my-4 mr-2 inline-block text-lg font-semibold sm:my-8 sm:text-xl"
+      >
         The Perks of Sharing Knowledge
       </h2>
       <a
@@ -38,13 +40,13 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         <IconRss
           width={20}
           height={20}
-          class="scale-125 stroke-accent stroke-4"
+          class="scale-100 stroke-accent stroke-3 sm:scale-140"
         />
         <span class="sr-only">RSS Feed</span>
       </a>
 
       <article id="article" class="mx-auto prose max-w-5xl">
-        <AboutMe />
+        <AboutMeIntro />
       </article>
 
       <!-- <p class="mb-4">Building, learning and evolving.</p>
@@ -56,7 +58,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
           <div class="mt-4 flex flex-col sm:flex-row sm:items-center">
-            <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">Social Links:</div>
+            <div class="mr-2 mb-1 whitespace-nowrap sm:mb-0">
+              Let's connect!
+            </div>
             <Socials />
           </div>
         )
