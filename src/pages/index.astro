@@ -10,6 +10,7 @@ import Hr from "@/components/Hr.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import { Content as AboutMe } from "../components/AboutMe.md";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 
@@ -37,24 +38,19 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         <IconRss
           width={20}
           height={20}
-          class="scale-125 stroke-accent stroke-3"
+          class="scale-125 stroke-accent stroke-4"
         />
         <span class="sr-only">RSS Feed</span>
       </a>
 
-      <p class="mb-4">Building, learning and evolving.</p>
+      <article id="article" class="mx-auto prose max-w-5xl">
+        <AboutMe />
+      </article>
+
+      <!-- <p class="mb-4">Building, learning and evolving.</p>
       <p>
         This is my personal playground for digital exploration, full-stack
         development, and professional project showcases.
-      </p>
-      <!-- <p class="mt-2">
-        Read the blog posts or check
-        <LinkButton
-          class="underline decoration-dashed underline-offset-4 hover:text-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
       </p> -->
       {
         // only display if at least one social link is enabled
