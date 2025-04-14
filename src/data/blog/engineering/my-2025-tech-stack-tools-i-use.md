@@ -1,7 +1,8 @@
 ---
-title: "My 2025 Tech Stack: Tools I Use and Recommend"
+title: "My 2025 Tech Stack: Tools I Use"
 description: "A snapshot of my current tech stack for web development and AI integration."
 featured: true
+slug: my-2025-tech-stack
 pubDatetime: 2025-04-13T02:58:03.223Z
 modDatetime: 2025-04-13T02:58:03.223Z
 draft: false
