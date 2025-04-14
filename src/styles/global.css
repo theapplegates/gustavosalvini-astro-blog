@@ -9,7 +9,7 @@ html[data-theme="light"] {
   --background: #f0f0f0;
   --foreground: #282728;
   /* --accent: #006cac; */
-  --accent: #c93b0c;
+  --accent: #cf6d0b;
   /* --muted: #e6e6e6; */
   --muted: #dfdfdf;
   /* --border: #ece9e9; */
@@ -21,7 +21,7 @@ html[data-theme="dark"] {
   --background: #232235;
   --foreground: #afb9d0;
   /* --accent: #ff6b01; */
-  --accent: #3b86d6;
+  --accent: #da7c3d;
   /* --muted: #343f60bf; */
   --muted: #2673c55b;
   /* --border: #ab4b08; */
@@ -29,8 +29,12 @@ html[data-theme="dark"] {
 }
 
 @theme inline {
-  --font-mono: "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono:
+    "Space Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  --font-sans:
+    "Inter Variable", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
@@ -50,9 +54,11 @@ html[data-theme="dark"] {
   body {
     @apply flex min-h-svh flex-col bg-background font-sans text-foreground selection:bg-accent/75 selection:text-background;
   }
-  h1, h2, h3, h4, h5, h6 {
+
+  /* h1, h2, h3, h4, h5, h6 {
     @apply font-mono;
-  }
+  } */
+
   a,
   button {
     @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;

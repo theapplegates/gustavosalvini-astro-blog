@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "Now"
+title: Now
+author: Gustavo Adrián Salvini
 ---
 
 Last updated: April 10, 2025

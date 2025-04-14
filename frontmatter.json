@@ -41,12 +41,14 @@
         {
           "title": "author",
           "name": "author",
-          "type": "string"
+          "type": "string",
+          "default": "Gustavo Adrián Salvini"
         },
         {
           "title": "pubDatetime",
           "name": "pubDatetime",
-          "type": "datetime"
+          "type": "datetime",
+          "default": "{{now}}"
         },
         {
           "title": "featured",
@@ -71,7 +73,8 @@
         {
           "title": "timezone",
           "name": "timezone",
-          "type": "string"
+          "type": "string",
+          "default": "America/Argentina/Buenos_Aires"
         },
         {
           "title": "modDatetime",
@@ -81,7 +84,8 @@
         {
           "title": "hideEditPost",
           "name": "hideEditPost",
-          "type": "boolean"
+          "type": "boolean",
+          "default": true
         }
       ]
     }
