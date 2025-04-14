@@ -12,8 +12,6 @@ import rehypeModifyMermaidGraphs from "./src/utils/rehype/rehype-modifyMermaidGr
 import { SITE } from "./src/config";
 import { targetBlank } from "./src/utils/rehype/rehype-targetBlank";
 
-import partytown from "@astrojs/partytown";
-
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
@@ -22,7 +20,6 @@ export default defineConfig({
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
     }),
-    partytown({ config: { forward: ["dataLayer.push"] } }),
   ],
 
   markdown: {
