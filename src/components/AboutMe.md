@@ -2,7 +2,6 @@
 title: 'About me'
 author: 'Gustavo Adrián Salvini'
 ---
-### Welcome! — I'm Gustavo, a creator of digital solutions and teams.
 
 I'm a Software Developer and IT Consultant, passionate about building technology that drives growth, unlocks new opportunities, and creates a better quality of life — because innovation means nothing if it doesn't respect our time, our families, and our lives beyond work.
 
