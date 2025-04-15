@@ -51,16 +51,12 @@ And knowledge — when shared authentically — becomes a superpower.
 I feel it’s the perfect moment to open a space like this.  
 Not to chase trends, but to **deepen understanding** and **amplify impact** through collaboration.
 
-## 📫 Let’s Connect
+### 📫 If you share this spirit, let’s connect!
 
 If you find something useful here, if you want to discuss an idea, or even if you just want to say hi — I’d love to hear from you.
 
+- [GitHub](https://github.com/guspatagonico)
 - [LinkedIn](https://www.linkedin.com/in/gustavosalvini/)
+- [X](https://x.com/guspatagonico)
 - [EcimTech](https://ecimtech.com)
-- [Email Me](mailto:gsalvini@ecimtech.com)
-
-Thanks for being here. Let’s keep building.
-
----
-
-> _"Build, learn, evolve, and share."_ 🚀
+- [Email](mailto:gsalvini@ecimtech.com)

@@ -1,5 +1,5 @@
 ---
-title: "My 2025 Tech Stack: Tools I Use"
+title: "My 2025 Tech Stack for Web Development and AI Integration"
 description: "A snapshot of my current tech stack for web development and AI integration."
 featured: true
 slug: my-2025-tech-stack
@@ -20,6 +20,8 @@ tags:
 Technology evolves fast. Staying ahead means constantly learning, experimenting, and adjusting the tools you rely on.
 
 Here's a snapshot of my **current 2025 tech stack** — the technologies I use daily to build web applications, design scalable architectures, and integrate AI into real-world solutions.
+
+**This list is dynamic, it might evolve during the year**, but I wanted to share it as a reference for anyone interested in modern web development and AI integration.
 
 ---
 

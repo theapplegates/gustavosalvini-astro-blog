@@ -11,6 +11,12 @@ Here, I share ideas, insights, and projects that reflect my approach: building w
 
 Visit my [Now](/now) page to know more about my current projects and work.
 
+### 📫 If you share this spirit, let’s connect!
 
-If you share this spirit, [let's connect](https://linkedin.com/in/gustavosalvini/).
+If you find something useful here, if you want to discuss an idea, or even if you just want to say hi — I’d love to hear from you.
 
+- [GitHub](https://github.com/guspatagonico)
+- [LinkedIn](https://www.linkedin.com/in/gustavosalvini/)
+- [X](https://x.com/guspatagonico)
+- [EcimTech](https://ecimtech.com)
+- [Email](mailto:gsalvini@ecimtech.com)
