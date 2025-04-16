@@ -8,6 +8,11 @@ declare global {
   }
 }
 
+window.dataLayer = window.dataLayer || [];
+window.gtag = function gtag(..._args: any[]) {
+  window.dataLayer.push(arguments);
+};
+
 // Enable dark mode
 if (getPreferTheme() === "dark") {
   document.documentElement.classList.add("cc--darkmode");

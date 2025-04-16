@@ -19,10 +19,6 @@
     {
       "title": "_releases",
       "path": "[[workspace]]/src/data/blog/_releases"
-    },
-    {
-      "title": "engineering",
-      "path": "[[workspace]]/src/data/blog/engineering"
     }
   ],
   "frontMatter.taxonomy.contentTypes": [

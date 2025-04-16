@@ -142,12 +142,17 @@ const structuredData = {
         }
       }
 
-      // This is the important part!
+      console.log("script executed");
+
       document.addEventListener("astro:page-load", () => {
+        console.log("page loaded");
+
         window.dataLayer = window.dataLayer || [];
-        window.gtag = function gtag(..._args: any[]) {
+
+        window.gtag = function gtag(...args: any[]) {
           window.dataLayer.push(arguments);
         };
+
         window.gtag("js", new Date());
         window.gtag("consent", "default", {
           ad_storage: "denied",
@@ -176,7 +181,7 @@ const structuredData = {
 
       <script is:inline>
         // Restore the `show--consent` class if it was present before the page swap
-        document.addEventListener("astro:before-preparation", () => {
+        document.addEventListener("astro:before-preparation", event => {
           const htmlClassName = window.document.documentElement.className;
           const consentClassPresent = htmlClassName.includes("show--consent")
             ? true

@@ -7,23 +7,23 @@
 html[data-theme="light"] {
   /* --background: #fdfdfd; */
   --background: #f0f0f0;
-  --foreground: #282728;
+  --foreground: #121212;
   /* --accent: #006cac; */
   --accent: #cf6d0b;
   /* --muted: #e6e6e6; */
-  --muted: #dfdfdf;
+  --muted: #cf6d0b6b;
   /* --border: #ece9e9; */
   --border: #d6d0d0;
 }
 
 html[data-theme="dark"] {
   /* --background: #212737; */
-  --background: #232235;
-  --foreground: #afb9d0;
+  --background: #25182e;
+  --foreground: #bebebe;
   /* --accent: #ff6b01; */
   --accent: #da7c3d;
   /* --muted: #343f60bf; */
-  --muted: #2673c55b;
+  --muted: #da7c3d6b;
   /* --border: #ab4b08; */
   --border: #304051;
 }
@@ -74,5 +74,5 @@ html[data-theme="dark"] {
 }
 
 .active-nav {
-  @apply underline decoration-wavy decoration-2 underline-offset-4;
+  @apply underline decoration-muted decoration-2 underline-offset-4;
 }

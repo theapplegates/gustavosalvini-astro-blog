@@ -1,5 +1,5 @@
 ---
-title: "Sharing My Journey: Why I Created This Blog"
+title: "Why I Created This Blog"
 description: The story behind starting my personal and professional blog — a space for sharing knowledge, building ideas, and growing together.
 tags:
   - personal

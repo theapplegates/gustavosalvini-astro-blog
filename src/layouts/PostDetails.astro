@@ -78,6 +78,15 @@ const currentPostIndex = allPosts.findIndex(a => a.slug === post.id);
 const prevPost = currentPostIndex !== 0 ? allPosts[currentPostIndex - 1] : null;
 const nextPost =
   currentPostIndex !== allPosts.length ? allPosts[currentPostIndex + 1] : null;
+
+// console.log("prevPost", prevPost);
+// if (nextPost) {
+//   console.log("prevPost getPath(id, filePath)", getPath(prevPost.slug));
+// }
+
+// if (nextPost) {
+//   console.log("nextPost getPath(id, filePath)", getPath(nextPost.slug));
+// }
 ---
 
 <Layout {...layoutProps}>

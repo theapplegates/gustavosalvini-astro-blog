@@ -16,7 +16,7 @@ import { targetBlank } from "./src/utils/rehype/rehype-targetBlank";
 export default defineConfig({
   site: SITE.website,
   integrations: [
-    mdx(), // partytown({ config: { forward: ['dataLayer.push'] } })
+    mdx(),
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
     }),
