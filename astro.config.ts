@@ -29,7 +29,7 @@ export default defineConfig({
       [remarkCollapse, { test: "Table of contents" }],
     ],
     rehypePlugins: [
-      [targetBlank, { domain: "gustavosalvini.com.ar" }],
+      [targetBlank, { domain: "paulapplegate.com" }],
       rehypeKatex,
       [
         rehypeMermaid,

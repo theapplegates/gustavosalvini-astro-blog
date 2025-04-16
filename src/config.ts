@@ -1,9 +1,9 @@
 export const SITE = {
-  website: "https://gustavosalvini.com.ar/", // replace this with your deployed domain
-  author: "Gustavo Adrián Salvini",
-  profile: "https://gustavosalvini.com.ar/",
-  desc: "A personal playground for full-stack development and digital exploration by Gustavo Adrián Salvini",
-  title: "Gustavo Adrián Salvini",
+  website: "https://seesomethingsaysomething.paulapplegate.com/", // replace this with your deployed domain
+  author: "Paul Applegate",
+  profile: "https://seesomethingsaysomething.paulapplegate.com/",
+  desc: "My life.",
+  title: "Living Life",
   ogImage: "gustavosalvini-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -14,9 +14,9 @@ export const SITE = {
   editPost: {
     enabled: false,
     text: "Suggest Changes",
-    url: "https://github.com/guspatagonico/gustavosalvini-astro-blog/edit/main/",
+    url: "https://github.com/theapplegates/seesay/edit/main/",
   },
   dynamicOgImage: true,
   lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "America/Argentina/Buenos_Aires", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "America/New_York", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;
