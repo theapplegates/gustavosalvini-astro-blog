@@ -132,7 +132,8 @@ const structuredData = {
     <script
       is:inline
       src="https://www.googletagmanager.com/gtag/js?id=G-09W87G423D"
-    ></script>
+    >
+    </script>
 
     <script>
       declare global {
@@ -149,7 +150,8 @@ const structuredData = {
 
         window.dataLayer = window.dataLayer || [];
 
-        window.gtag = function gtag(...args: any[]) {
+        // window.gtag = function gtag(...args: any[]) {
+        window.gtag = function gtag(..._args: any[]) {
           window.dataLayer.push(arguments);
         };
 
@@ -181,7 +183,8 @@ const structuredData = {
 
       <script is:inline>
         // Restore the `show--consent` class if it was present before the page swap
-        document.addEventListener("astro:before-preparation", event => {
+        document.addEventListener("astro:before-preparation", _event => {
+          // document.addEventListener("astro:before-preparation", event => {
           const htmlClassName = window.document.documentElement.className;
           const consentClassPresent = htmlClassName.includes("show--consent")
             ? true
