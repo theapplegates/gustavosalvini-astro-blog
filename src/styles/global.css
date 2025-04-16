@@ -6,10 +6,10 @@
 :root,
 html[data-theme="light"] {
   /* --background: #fdfdfd; */
-  --background: #f0f0f0;
+  --background: #f3f3f3;
   --foreground: #121212;
   /* --accent: #006cac; */
-  --accent: #cf6d0b;
+  --accent: #b64f0f;
   /* --muted: #e6e6e6; */
   --muted: #cf6d0b6b;
   /* --border: #ece9e9; */

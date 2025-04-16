@@ -36,7 +36,7 @@ const time = datetime.format("hh:mm A"); // e.g., '08:30 PM'
 <div class:list={["flex items-end space-x-2 opacity-80", className]}>
   <IconCalendar
     class:list={[
-      "inline-block size-6 min-w-[1.375rem]",
+      "inline-block size-6 min-w-[1.375rem] stroke-1",
       { "scale-90": size === "sm" },
     ]}
   />
@@ -51,7 +51,7 @@ const time = datetime.format("hh:mm A"); // e.g., '08:30 PM'
   }
   <span class:list={["text-sm", { "sm:text-base": size === "lg" }]}>
     <time datetime={datetime.toISOString()}>{date}</time>
-    <span aria-hidden="true"> | </span>
+    <span aria-hidden="true">|</span>
     <span class="sr-only">&nbsp;at&nbsp;</span>
     <span class="text-nowrap">{time}</span>
   </span>

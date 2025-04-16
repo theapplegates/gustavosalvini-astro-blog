@@ -1,18 +1,18 @@
-# Gustavo Salvini blog based on AstroPaper 📄
+# Gustavo Adrián Salvini blog based on AstroPaper
 
 Here it comes the original AstroPaper README. I'll be soon updating it.
 
-Regards, Gustavo.
+Gustavo.
 
+---
 
-![AstroPaper](public/gustavosalvini-og.jpg)
-[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/community/file/1356898632249991861)
+![Gustavo Adrián Salvini Blog](public/gustavosalvini-og.jpg)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![GitHub](https://img.shields.io/github/license/satnaing/astro-paper?color=%232F3741&style=for-the-badge)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white&style=for-the-badge)](https://conventionalcommits.org)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?style=for-the-badge)](http://commitizen.github.io/cz-cli/)
 
-AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [my personal blog](https://satnaing.dev/blog).
+This is a minimal, responsive, accessible and SEO-friendly Astro blog theme. This theme is designed and crafted based on [AstroPaper] [my personal blog](https://satnaing.dev/blog).
 
 Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README Documentation Section](#-documentation) for more info.
 
@@ -30,8 +30,6 @@ Read [the blog posts](https://astro-paper.pages.dev/posts/) or check [the README
 - [x] followed best practices
 - [x] highly customizable
 - [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
-
-_Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
 
 ## ✅ Lighthouse Score
 
